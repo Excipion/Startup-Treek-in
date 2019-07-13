@@ -1,0 +1,18 @@
+.main {
+
+    .container--colums {
+        padding: 2% 10%;
+        display: grid;
+        grid-template-columns: 2.5fr 2fr 2fr;
+        grid-template-rows: 0.5fr 0.5fr; 
+        grid-gap: 1rem;
+    }
+
+    &__title {
+        margin: 4rem 0 0 1rem;
+    }
+
+    &__text {
+        line-height: 1.8rem;
+    }
+}

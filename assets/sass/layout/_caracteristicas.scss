@@ -1,0 +1,10 @@
+.caracteristicas {
+
+    .container--colums {
+        padding: 2% 10%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 1.5rem;
+        text-align: center;
+    }
+}

@@ -1,13 +1,33 @@
 .precios {
-    h2 {
-        text-align: center;
-        font-size: 24px;
-        font-weight: 600;
+
+    &__container--grid {
+        display: grid
+        
     }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 2rem auto;
+        padding: 0.125rem;
+        width: 45%;
+    }
+
+    &__title {
+        margin-top: 0;
+    }
+
+    &__card--1 {
+        width: 70%;
+        margin: 2% auto;
+        padding: 15% 8%;
+        border: 1px solid $gray;
+    }
+
+    &__title {
+        text-align: center;
+    }
+    
 }
 
-.grid__container {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-around;
-}

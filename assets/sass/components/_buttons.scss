@@ -1,0 +1,31 @@
+.navbar .navbar__botones {
+
+    .navbar__boton {
+        @extend .m__boton;
+        color: $raising-black;
+        background-color: $white;
+        margin-right: 1rem;
+
+        &:hover {
+            color: $white;
+            background-color: $middle-blue;
+        }
+    }
+
+    .navbar__boton--active {
+        @extend .m__boton;
+        color: $white;
+        font-size: $font-size-medium;
+        background-color: $ball-blue;
+
+        &:hover {
+            color: $white;
+            background-color: $middle-blue;
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+}

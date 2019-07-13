@@ -1,0 +1,17 @@
+// Color - tipografia y tamaño
+@import 'abstracts/variables';
+
+// Reutilizacion de codigo
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/caracteristicas';
+@import 'layout/precios';
+
+@import 'components/buttons';

@@ -1,0 +1,13 @@
+.precios {
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}

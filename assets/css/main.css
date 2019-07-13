@@ -1,0 +1,136 @@
+.m__boton, .navbar .navbar__botones .navbar__boton--active, .navbar .navbar__botones .navbar__boton {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Raleway", sans-serif, "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  padding: 2% 10%;
+  color: #221d23;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar__svg {
+  padding-right: 0.5rem;
+}
+.navbar__textos {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar__link {
+  color: #333745;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+.navbar__link-toggle {
+  display: none;
+}
+.navbar__botones {
+  margin-left: auto;
+}
+@media (max-width: 768px) {
+  .navbar .navbar .navbar__items {
+    flex-direction: column;
+  }
+  .navbar__item {
+    display: none;
+  }
+  .navbar__botones {
+    margin-left: 0;
+  }
+  .navbar .navbar__toggleshow {
+    display: flex;
+  }
+  .navbar__link-toggle {
+    right: 10%;
+    align-self: flex-start;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    justify-content: space-around;
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 8rem;
+  background-color: #221d23;
+  color: #221d23;
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+    padding: 2rem 2rem;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+.footer__menu {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding-inline-start: 0;
+}
+.footer__link {
+  color: #726f73;
+  padding: 1rem 1rem;
+  text-decoration: none;
+}
+.footer__link:hover {
+  color: #fff;
+}
+.footer__copyright {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.precios h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.navbar .navbar__botones .navbar__boton {
+  color: #221d23;
+  background-color: #fff;
+  margin-right: 1rem;
+}
+.navbar .navbar__botones .navbar__boton:hover {
+  color: #fff;
+  background-color: #77d1dd;
+}
+.navbar .navbar__botones .navbar__boton--active {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #2ab7ca;
+}
+.navbar .navbar__botones .navbar__boton--active:hover {
+  color: #fff;
+  background-color: #77d1dd;
+}
+@media (max-width: 768px) {
+  .navbar .navbar__botones {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

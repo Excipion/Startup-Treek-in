@@ -23,8 +23,9 @@
     <nav class="navbar">
         <div class="navbar__svg">
             <?xml version="1.0" encoding="UTF-8"?>
-            <svg class="navbar__logo" width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                
+            <svg class="navbar__logo" width="48px" height="40px" viewBox="0 0 48 40" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
                 <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
                 <title>Logo</title>
                 <desc>Created with Sketch.</desc>
@@ -79,74 +80,91 @@
     </nav>
 
     <header class="main">
-        <div class="container--colums">
-            <h1 class="main_title main__grid-item-1">Haz Trekking sin Parar</h1>
-            <div class="main__grid-item-2"></div>
-            <div class="main__grid-item-3"></div>
-            <p class="main__text main__grid-item-4">Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedeción</p>
+        <div class="container">
+            <h1 class="main__title">Haz Trekking sin Parar</h1>
+            <p class="main__text">Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedeción</p>
         </div>
+        <object type="image/svg+xml" data="./assets/img/bg-hero.svg" class="hero"><img src="assets/img/bg-hero.svg" alt="">
+        </object>
     </header>
 
     <section class="caracteristicas">
-        <div class="container--colums">
-            <h2 class="caracteristicas__title">Características</h2>
-            <div>
-                <figure class="caracteristicas__grafico"></figure>
-            </div>
-            <div>
-                <article class="caracteristicas__box">
-                    <h3 class="caracteristicas__title--2">Estadísticas de tu grupo</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est explicabo deleniti iusto repellat pariatur, architecto nisi consectetur iure molestiae velit, ex soluta perferendis similique amet eligendi blanditiis corrupti placeat accusamus.</p>
-                </article>
+    
+        <h2 class="caracteristicas__title">Características</h2>
+        <div class="container col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+                <div class="caracteristicas__grafico">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="318" height="165">
+                            <g class="bar-graph">
+                                <path class="a-bar" d="M10.9 53h34.8v108H10.9zM63.6 0h34.8v161H63.6zM116.3 32h34.8v129h-34.8z" fill="#EE9480"/>
+                                <path class="b-bar" d="M168.9 53h34.8v108H168.9zM221.6 28h34.8v133h-34.8zM274.3 73h34.8v88h-34.8z" fill="#2AB7CA"/>
+                                <path class="plane" d="M3 162.5h312.5" style="stroke-width:5;stroke:#979797"/>
+                            </g>
+                        </svg> 
+                    </figure>
+                </div>
+    
+                <div>
+                    <article class="caracteristicas__box col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h3 class="caracteristicas__title--2">Estadísticas de tu progreso</h3>
+                        <p class="caracteristicas__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est explicabo deleniti iusto repellat pariatur, architecto nisi consectetur iure molestiae velit, ex soluta perferendis similique ameteligendi blanditiis corrupti placeat accusamus.</p>
+                    </article>
+                </div>
             </div>
         </div>
-        
+
     </section>
 
     <section class="precios">
         <h2 class="precios__title">Precios</h2>
-        <div class="precios__container--grid">
-            <div class="precios__row">
-                <div class="grid__card col-sm-12 col-md-6 col-lg-6">
-                    <div class="precios__card--1">
-
-                        <h4 class="precios__text">
-                            Trekk-in Free
-                        </h4>
-
-                        <h1 class="precios__card--title">
-                            $0/mes
-                        </h1>
-
-                        <ul class="precios__bullets">
-                            <li class="precios__bullets--text">Ver mapas creados por los usuarios</li>
-                            <li class="precios__bullets--text">Contactar con otros usuarios</li>
-                        </ul>
-
-                        <button class="precios__boton">Registrarse</button>
-                    </div>
-
-                    <div class="precios__card--2">
-
-                        <h4 class="precios__text">
-                            Trekk-in Free
-                        </h4>
-
-                        <h1 class="precios__card--title">
-                            $0/mes
-                        </h1>
-
-                        <ul class="precios__bullets">
-                            <li class="precios__bullets--text">Ver mapas creados por los usuarios</li>
-                            <li class="precios__bullets--text">Contactar con otros usuarios</li>
-                        </ul>
-
-                        <button class="precios__boton">Registrarse</button>
-                    </div>
+        <div class="precios__container--grid container col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="precios__row row">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="precios__card--item">
+                    <h4 class="precios__text">
+                        Trekk-in Free
+                    </h4>
+                    <h2 class="precios__card--title">
+                        $0/mes
+                    </h2>
+                    <hr>
+                    <ul class="precios__bullets">
+                        <li class="precios__bullets--text">Ver mapas creados por los usuarios</li>
+                        <li class="precios__bullets--text">Contactar con otros usuarios</li>
+                    </ul>
+                    <hr>
+                    <button class="precios__boton">Obtén Free</button>
                 </div>
-                <div class="grid__col">
-                    <div class="cube"></div>
+
+                <div class="precios__card--item2">
+                    <h4 class="precios__text">
+                        Trekk-in Free
+                    </h4>
+                    <h2 class="precios__card--title">
+                        $3.500/mes
+                    </h2>
+                    <hr>
+                    <ul class="precios__bullets">
+                        <li class="precios__bullets--text">Ver mapas creados por los usuarios</li>
+                        <li class="precios__bullets--text">Contactar con otros usuarios</li>
+                        <li class="precios__bullets--text">Definir mejores rutas</li>
+                        <li class="precios__bullets--text">Mapas offline</li>
+                        <li class="precios__bullets--text">Integración con otras aplicaciones</li>
+                    </ul>
+                    <hr>
+                    <button class="precios__boton">Obtén Premium</button>
                 </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
             </div>
         </div>
     </section>

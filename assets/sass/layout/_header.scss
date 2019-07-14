@@ -1,18 +1,43 @@
 .main {
 
-    .container--colums {
+    .container {
         padding: 2% 10%;
-        display: grid;
-        grid-template-columns: 2.5fr 2fr 2fr;
-        grid-template-rows: 0.5fr 0.5fr; 
-        grid-gap: 1rem;
+        margin-bottom: 10rem;
+        text-align: left;
+        width: 30%;
+        position: absolute;
+        z-index: 1;
     }
 
     &__title {
-        margin: 4rem 0 0 1rem;
+        margin-top: 4rem;
+
+        @media (max-width: 768px) {
+            width: 20rem;
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
     }
 
     &__text {
+        padding-right: 2rem;
         line-height: 1.8rem;
+
+        @media (max-width: 768px) {
+            width: 260%;
+            padding-right: 1rem;
+        }
+    }
+
+    object {
+        float: right;
+        width: 100vw;
+        position: relative;
+
+        @media (max-width: 768px) {
+            float: right;
+            width: 150vw;
+            margin-top: 100%;
+        }
     }
 }

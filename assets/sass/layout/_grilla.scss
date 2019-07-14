@@ -1,9 +1,6 @@
-
-
-
 /* Grid */
-
 /* Container */
+
 @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -19,17 +16,19 @@
       width: 1170px;
     }
   }
+
   /* Row */
   .row {
+    margin: 3rem 0; 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 1rem;
+    grid-column-gap: 2rem;
     grid-row-gap: 3rem;
+    justify-content: center;
   }
   @media (min-width: 1200px) {
     .row {
-        
-      grid-column-gap: 4rem;
+      grid-column-gap: 8rem;
     }
   }
   /* Columns */

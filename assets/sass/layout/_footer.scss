@@ -19,6 +19,10 @@
         text-decoration: none;
         padding-inline-start: 0;
 
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
+
     }
 
     &__link {
